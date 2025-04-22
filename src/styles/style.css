@@ -1,0 +1,71 @@
+body 
+{
+  background-color: darkblue;
+  color: white;
+
+}
+ 
+* 
+{
+  box-sizing: border-box;
+}
+.loading
+{
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border: 5px solid white;
+  border-top-color: rgba(3, 155, 299, 1);
+  border-radius: 50%;
+  animation: rotate 600ms infinite linear;
+}
+
+@keyframes rotate
+{
+  to 
+  {
+    transform: rotate(1turn); 
+  }
+}
+
+form 
+{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 30rem;
+  border: 1px solid white;
+  padding: 1rem;
+  background-color: blue;
+}
+h1
+{
+  text-align: center;
+}
+
+.data
+{
+  border: 1px solid white;
+  max-width: 30rem;
+  background-color: blue;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: left;
+}
+
+button 
+{
+  background-color: lightblue;
+  color: white;
+  margin: 1rem;
+}
+input, select, label, button 
+{
+  width: 90%;
+  margin-left: 1rem;
+}
+
+input, select 
+{
+  margin-bottom: 1rem
+}
