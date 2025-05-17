@@ -1,6 +1,4 @@
-Here is a draft README based on src/index.js and the intended use of the scripts folder (which appears to contain code like api.js used for fetching weather data):
 
----
 
 # Weather App
 
